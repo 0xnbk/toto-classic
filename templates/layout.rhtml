@@ -1,19 +1,31 @@
 <!doctype html>
 <html>
   <head>
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title><%= title %></title>
   </head>
   <body>
+        <header>
+	
+        <span>
+          <a href="http://blog.nikhilben.com" ><img src="http://28.media.tumblr.com/avatar_fe6dca61e6e2_16.png" alt="" style="vertical-align:middle;border:0"/></a>
+          <a href="/">Simple Toto</a>
+        </span>
+        <ul>
+          <li><a href="/about/">about</a></li>
+          <li><a href="/archives/">archives</a></li>
+        </ul>
+
+      </header>
     <section>
-      <%= yield %> 
+      <%= yield %>
     </section>
     <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
+      &copy; 2011 - 2015 <a href="#" target="_blank">Your Name Here</a> | Powered by <a href="https://github.com/cloudhead/toto" target="_blank">toto</a> 
     </footer>
   </body>
 </html>
