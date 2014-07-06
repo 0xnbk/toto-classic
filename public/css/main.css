@@ -107,13 +107,7 @@ body > section > header > h1 a:hover {
   line-height: 1.3em;
 	margin-bottom: 15px;
 }
-.post .content p:first-child:first-letter {
-  /*padding-right: 10px;
-  font-size: 64px;
-  vertical-align: bottom;
-  margin-top: 10px;
-  float: left;*/
-}
+
 .post .content blockquote p:first-child:first-letter {
   font-size: inherit;
   line-height: inherit;
@@ -289,44 +283,5 @@ textarea {
 .profile li:first-child {
   margin-left:0px;
   margin-right:20px;
-}
-#dsq-footer,
-.dsq-avatar,
-.dsq-trackback-url,
-#dsq-global-toolbar,
-#dsq-sort-select,
-#dsq-reply h3,
-#dsq-content h3 {
-  display: none !important;
-}
-.dsq-comment {
-  background: #F4F6FB !important;
-  padding: 20px !important;
-  margin-bottom: 10px !important;
-}
-.dsq-comment-header {
-  background: 0 !important;
-  border: 0 !important;
-  padding-left: 0 !important;
-}
-.dsq-commenter-name {
-  font-family: "Bitter", sans-serif;
-  font-weight: normal !important;
-  font-size: 17px !important;
-  color: #111 !important;
-}
-.dsq-comment-body {
-  padding: 5px 10px 5px 15px !important;
-  color: #444 !important;
-}
-.dsq-comment-footer {
-  font-size: 13px !important;
-  color: #72797E !important;
-}
-.dsq-textarea {
-  margin-left: 0 !important;
-}
-.dsq-moderator {
-  background: #FFFADB !important;
 }
 
